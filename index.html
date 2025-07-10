@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piotr Bystranowski | Home</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32.png"
+    />
+    <!-- High-resolution / Apple touch -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-180.png"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="nav">
+        <a href="#home" class="nav-logo">Piotr&nbsp;Bystranowski</a>
+        <nav class="nav-links" id="navLinks">
+          <a href="about.html">About&nbsp;me</a>
+          <a href="cv.html">CV</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== INTRO SECTION ===== -->
+    <section id="home">
+      <div class="hero-wrapper">
+        <div class="hero-text">
+          <h1 class="hi">Hi!</h1>
+          <p class="intro-text">
+            I’m <strong>Piotr Bystranowski</strong>, a legal and moral
+            philosopher who uses experimental and computational methods to
+            tackle foundational questions in law and philosophy. My work focuses
+            on legal interpretation, responsibility ascriptions, criminalization
+            theory, rule representation, and moral and legal cognition.<br /><br />
+            I’m an assistant professor at the
+            <a href="#" class="text-link" target="_blank" rel="noopener"
+              >Interdisciplinary&nbsp;Centre&nbsp;for&nbsp;Ethics</a
+            >, Jagiellonian University, where I lead the four‑year NCN&nbsp;OPUS
+            project
+            <em>“Ignorance of Law: A Study in Experimental Jurisprudence.”</em
+            ><br /><br />
+            Explore the
+            <a href="about.html" class="text-link">About&nbsp;me</a> page or
+            browse my upcoming
+            <a href="talks.html" class="text-link">Talks</a> to learn more.<br /><br />
+            Have a project or question?
+            <strong
+              ><a href="contact.html" class="text-link"
+                >Drop&nbsp;me&nbsp;a&nbsp;line</a
+              ></strong
+            >—I respond promptly, especially to students and early‑career
+            researchers.
+          </p>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/photo.jpeg" alt="Piotr Bystranowski photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Piotr&nbsp;Bystranowski. All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("navLinks");
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        burger.classList.toggle("open");
+      });
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

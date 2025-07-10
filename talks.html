@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piotr Bystranowski | Talks</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32.png"
+    />
+    <!-- High-resolution / Apple touch -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-180.png"
+    />
+    <!--
+      Google
+      Fonts
+      --
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Shared stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .talks-wrapper {
+        max-width: 900px;
+        margin: 5rem auto;
+        padding: 0 1rem;
+        line-height: 1.75;
+      }
+      .talk-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .talk-item {
+        /* two-column grid keeps start aligned */
+        display: grid;
+        grid-template-columns: 110px 1fr;
+        column-gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+      .talk-date {
+        font-weight: 600;
+        color: var(--dark);
+        white-space: normal; /* allow wrapping within 110px */
+      }
+      /* invited talk highlight */
+      .invited {
+        border-left: 4px solid var(--secondary);
+        padding-left: 0.75rem;
+      }
+      /* poster / non-invited subtle */
+      .poster {
+        border-left: 4px solid transparent;
+        padding-left: 0.75rem;
+        /* font-style: italic; */
+      }
+      /* past transparency */
+      .past {
+        opacity: 0.35;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="nav">
+        <a href="index.html#home" class="nav-logo">Piotr&nbsp;Bystranowski</a>
+        <nav class="nav-links" id="navLinks">
+          <a href="about.html">About me</a>
+          <a href="cv.html">CV</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="burger" id="burger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
+    <!-- Legend -->
+    <!-- Legend -->
+    <!-- Legend (place just above the “2025” heading) -->
+    <!-- Legend – insert just above the “2025” heading -->
+    <!-- Legend -->
+
+    <main class="talks-wrapper">
+      <h1>Talks</h1>
+      <div class="talk-item invited">
+        <span style="font-style: italic"
+          >highlighted talks are invited talks</span
+        >
+      </div>
+    </main>
+
+    <!-- ===== TALKS ===== -->
+    <main class="talks-wrapper">
+      <h2>2025</h2>
+      <ul class="talk-list">
+        <!-- Upcoming invited -->
+        <li class="talk-item invited">
+          <span class="talk-date">05–07 Nov</span>
+          <span
+            ><strong>TBD</strong> <br />Legal Interpretation and Moral Reasoning
+            Workshop, University of Granada, Spain</span
+          >
+        </li>
+        <!-- Poster (non‑invited) -->
+        <li class="talk-item past poster">
+          <span class="talk-date">24 May</span>
+          <span
+            ><strong
+              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong
+            >
+            <br />Law and Society Association, Chicago, USA</span
+          >
+        </li>
+        <!-- Invited past talks -->
+        <li class="talk-item past invited">
+          <span class="talk-date">07 May</span>
+          <span
+            ><strong
+              >“Text” and Textualism: A Computational Reading of U.S. Federal
+              Caselaw</strong
+            >
+            <br />Computational Linguistics Joint Lab Meeting, Georgetown
+            University, Washington DC, USA</span
+          >
+        </li>
+        <li class="talk-item past invited">
+          <span class="talk-date">25 Apr</span>
+          <span
+            ><strong
+              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong
+            >
+            <br />Knobe Lab Meeting, Yale University, New Haven, USA</span
+          >
+        </li>
+        <li class="talk-item past invited">
+          <span class="talk-date">9 Apr</span>
+          <span
+            ><strong
+              >Ignorance of Law Does Not Excuse: A New Empirical Account</strong
+            >
+            <br />
+            PsyPhi Lab Meeting, CUNY Graduate Center, New York City, USA</span
+          >
+        </li>
+        <li class="talk-item past invited">
+          <span class="talk-date">14 Mar</span>
+          <span
+            ><strong
+              >Legal Interpretation and Settlement Behavior: Evidence from a Lab
+              Experiment</strong
+            >
+            <br />Symposium on Legal Interpretation and Data, Washington DC,
+            USA</span
+          >
+        </li>
+        <li class="talk-item past poster">
+          <span class="talk-date">22 Feb</span>
+          <span
+            ><strong
+              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong
+            >
+            (poster) <br />
+            SPSP Annual Meeting, Denver, USA</span
+          >
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Piotr Bystranowski. All Rights Reserved.
+      </p>
+    </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("navLinks");
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        burger.classList.toggle("open");
+      });
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

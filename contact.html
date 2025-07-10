@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piotr Bystranowski | Contact</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32.png"
+    />
+    <!-- High-resolution / Apple touch -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-180.png"
+    />
+    <!--
+      Google
+      Fonts
+      --
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Shared stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .contact-wrapper {
+        max-width: 700px;
+        margin: 5rem auto;
+        padding: 0 1rem;
+        line-height: 1.75;
+      }
+      .contact-wrapper h1 {
+        margin-bottom: 1.25rem;
+        color: var(--primary);
+      }
+      .contact-wrapper p {
+        margin-bottom: 1.5rem;
+      }
+      form.contact-form {
+        display: grid;
+        gap: 1rem;
+      }
+      form.contact-form input,
+      form.contact-form textarea {
+        width: 100%;
+        padding: 0.85rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 1rem;
+        resize: vertical;
+      }
+      form.contact-form button {
+        background: var(--primary);
+        color: #fff;
+        border: none;
+        padding: 0.9rem 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background 0.25s;
+      }
+      form.contact-form button:hover {
+        background: var(--secondary);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="nav">
+        <a href="index.html#home" class="nav-logo">Piotr&nbsp;Bystranowski</a>
+        <nav class="nav-links" id="navLinks">
+          <a href="about.html">About me</a>
+          <a href="cv.html">CV</a>
+          <a href="publications.html">Publications</a>
+          <a href="talks.html">Talks</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="burger" id="burger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== CONTACT ===== -->
+    <main class="contact-wrapper">
+      <h1>Get in touch</h1>
+      <p>
+        You can reach out to me via my institutional email address (at
+        uj.edu.pl) or use the form below. I aspire to react to emails within 1-2
+        working days. If I don't respond within a week, you should feel free to
+        send a reminder.
+      </p>
+
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/movwowgw"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <input type="text" name="subject" placeholder="Subject (optional)" />
+        <textarea
+          name="message"
+          rows="8"
+          placeholder="Your message"
+          required
+        ></textarea>
+
+        <!-- honeypot field for spam bots -->
+        <input type="text" name="_gotcha" style="display: none" />
+
+        <!-- success page or redirect can be set in Formspree dashboard -->
+        <button type="submit">Send message</button>
+      </form>
+
+      <p style="margin-top: 1.5rem">
+        You can also check my:
+        <a
+          href="https://scholar.google.com/citations?user=vybq0roAAAAJ"
+          target="_blank"
+          rel="noopener"
+          class="text-link"
+          >Google Scholar</a
+        >,
+        <a
+          href="https://incet.uj.edu.pl/en_GB/piotr-bystranowski"
+          target="_blank"
+          rel="noopener"
+          class="text-link"
+          >insitutional website</a
+        >.
+      </p>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Piotr&nbsp;Bystranowski. All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("navLinks");
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        burger.classList.toggle("open");
+      });
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
