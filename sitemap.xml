@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://bystranowski.github.io/</loc>
+  </url>
+
+  <!-- Stand-alone pages -->
+  <url>
+    <loc>https://bystranowski.github.io/about.html</loc>
+  </url>
+  <url>
+    <loc>https://bystranowski.github.io/cv.html</loc>
+  </url>
+  <url>
+    <loc>https://bystranowski.github.io/publications.html</loc>
+  </url>
+  <url>
+    <loc>https://bystranowski.github.io/talks.html</loc>
+  </url>
+  <url>
+    <loc>https://bystranowski.github.io/contact.html</loc>
+  </url>
+
+  <!-- PDFs directly linked / worth indexing -->
+  <url>
+    <loc>https://bystranowski.github.io/assets/Piotr_Bystranowski_CV.pdf</loc>
+  </url>
+
+</urlset>
