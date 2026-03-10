@@ -1,0 +1,363 @@
+\documentclass{resume}
+
+% ------------------------------------------------------------
+%  Piotr Bystranowski – Curriculum Vitae (resume class)
+% ------------------------------------------------------------
+
+% ---------- Page geometry & colours ----------
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}  
+\usepackage[utf8]{inputenc}
+\usepackage{cfr-lm}        % Latin Modern with old-style numerals
+\usepackage{graphicx}
+% ---------- Bibliography (biblatex) ----------
+\usepackage[backend=biber,
+            style=numeric,
+            sorting=ydnt,    % y = year, d = descending, n = name, t = title
+            defernumbers=true,
+            maxbibnames=99]{biblatex}
+
+\usepackage{xstring}         % needed for \IfStrEq
+
+\AtBeginBibliography{%
+  % bold family name
+  \renewcommand*{\mkbibnamefamily}[1]{%
+    \IfStrEq{#1}{Bystranowski}{\textbf{#1}}{#1}}%
+  % bold given name (handles “Piotr” or just “P.”)
+  \renewcommand*{\mkbibnamegiven}[1]{%
+    \IfStrEq{#1}{Piotr}{\textbf{#1}}{#1}}%
+}
+
+% a little vertical breathing-room between items
+\setlength{\bibitemsep}{0.8em}
+
+
+
+\addbibresource{pubs.bib}
+\addbibresource{chapters.bib}
+\addbibresource{comments.bib}
+\addbibresource{edited.bib}
+
+% sub-subsection-style headings for each list
+\defbibheading{subbib}{\subsection*{#1}}  % no optional arg, #1 in the code
+\setlength\bibitemsep{0.8em}   % tweak to taste
+% ---- bold my own name in every entry ----
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
+
+
+
+% ---------- Hyperlinks ----------
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  allcolors=DarkRed,
+  pdfborderstyle={/S/U/W 1}
+}
+
+% ---------- Helpers ----------
+\usepackage{vwcol}          % optional column environment
+      % bibliography (if needed)
+
+% ------------------------------------------------------------
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLE SECTION
+\begin{center}
+  \name{Piotr \textsc{Bystranowski}}
+  \contact
+    {Grodzka 52, 31-044 Kraków, Poland}
+    {\href{mailto:piotr.bystranowski@uj.edu.pl}{piotr.bystranowski@uj.edu.pl}}
+    {\href{https://orcid.org/0000-0001-5539-1342}{orcid.org/0000-0001-5539-1342}}
+    {\href{https://bystranowski.github.io}{bystranowski.github.io}}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH EXPERIENCE
+\section{Employment}
+\begin{content}
+
+  %------------ 1  -------------------------------------------------
+% helper: text-wrap at 55 % of the current line width
+\newcommand{\wrap}[1]{\parbox[t]{0.85\linewidth}{#1}}
+
+% ---- employment entry (example) ----
+\begin{position}
+  {Jagiellonian University}
+  {2025--Present}
+  {Principal Investigator}
+  {Interdisciplinary Centre for Ethics}
+  {Kraków, Poland}
+    \item \wrap{NCN OPUS project \textit{Ignorance of Law: A Study in Experimental Jurisprudence}
+          (2025–2029): leading a four-person team.}
+\end{position}
+
+
+  %------------ 2  -------------------------------------------------
+  \begin{position}
+    {Max Planck Institute for Research on Collective Goods}
+    {2024--2025}
+    {Post-doctoral Researcher}
+    {Christoph Engel team}
+    {Bonn, Germany}
+    \item Computational analysis of judicial decision-making; behavioural experiments in legal contexts.
+  \end{position}
+
+  %------------ 3  -------------------------------------------------
+  \begin{position}
+    {Jagiellonian University}
+    {2019--2024}
+    {Researcher}
+    {Interdisciplinary Centre for Ethics}
+    {Kraków, Poland}
+    \item ERC Starting project \textit{BIOUNCERTAINTY}
+  \end{position}
+
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION
+\section{Education}
+\begin{content}
+  \textbf{Jagiellonian University, Kraków}\hfill \textbf{2014--2021}\\
+  Doctor in Law \emph{(with distinction)}\\
+  Thesis: “Proxy criminalisation and its justification: An economic analysis”\\
+  Committee: Wojciech Załuski (supervisor), R.~A.~Duff, Alon Harel (reviewers)
+
+  \vspace{\baselineskip}
+  \textbf{University of Bologna, University of Hamburg, University of Haifa}\hfill \textbf{2015--2016}\\
+  European Master in Law and Economics \emph{(with distinction, 4th out of 96)}
+
+  \vspace{\baselineskip}
+  \textbf{Jagiellonian University, Kraków}\hfill \textbf{2008--2013}\\
+  Master in Law \emph{(with distinction)}
+
+  \vspace{\baselineskip}
+  \textbf{Pontifical University, Kraków}\hfill \textbf{2009--2012}\\
+  Bachelor in Philosophy
+\sectionlineskip
+\end{content}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH STAYS
+% put this helper once before the list
+\newcommand{\stayentry}[3]{%
+  \begin{tabular}{@{}p{0.70\linewidth} >{\raggedleft\arraybackslash}p{0.27\linewidth}@{}}
+    \textbf{#1} & #2 \\[-0.3em]
+    \multicolumn{2}{@{}l}{\emph{#3}} \\[0.8em]
+  \end{tabular}}
+
+% --------- Research Stays list ----------
+% ---------- helper (place once, e.g. in the preamble) ----------
+\newcommand{\stay}[3]{%
+  \textbf{#1}\hfill #2\\[-0.3em]
+  \emph{#3}\\[0.1em]}
+
+  \newlength{\staysep}           % adjustable gap after each stay
+\setlength{\staysep}{0.1em}    % ← tweak this value to taste
+
+\renewcommand{\stay}[3]{%
+  \textbf{#1}\hfill #2\\[-0.3em]   % host + dates
+  \emph{#3}\\[\staysep]}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% RESEARCH STAYS
+\section{Research Stays}
+\begin{content}
+  \stay{Hong Kong University -- Faculty of Law}{May 2026}{HKU Law Outstanding Early Career Visiting Fellow}
+
+  \stay{Georgetown University Law Center}{Jan–Jun 2025}{Fulbright Senior Scholar}
+
+  \stay{Pontifical Catholic University of Rio de Janeiro — Faculty of Law}{May 2022}{Visiting Scholar}
+
+  \stay{University of Surrey — Surrey Centre for Law and Philosophy}{Jan–Feb 2020}{Visiting Researcher}
+
+  \stay{Hebrew University of Jerusalem — Faculty of Law}{Feb–May 2019}{Visiting Doctoral Researcher}
+\sectionlineskip
+\end{content}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PRIZES & AWARDS
+\section{Prizes \textbf{\em\&} Awards}
+\begin{content}
+
+  % helper: one prize/award
+  \newcommand{\prizeentry}[3]{%
+    \begin{tabular}{@{}p{0.60\linewidth} p{0.33\linewidth}@{}}
+      \textbf{#1} & \hfill #2 \\[-0.3em]
+      \multicolumn{2}{@{}l}{\emph{#3}} \\[0.1em]
+    \end{tabular}}
+
+  %------------ list -------------
+  \prizeentry{Senior Award}{2024}{Polish–American Fulbright Commission}
+
+  \prizeentry{Scholarship for Outstanding Young Scholars}{2023}{Minister of Science of the Republic of Poland}
+
+  \prizeentry{Best Dissertation in Philosophy of Law}{2022}{Polish Section of IVR}
+
+\sectionlineskip
+\end{content}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS
+\section{Academic Publications}
+\begin{content}
+
+  %------------ Journal articles ----------------
+  \begin{refsection}[pubs.bib]
+    \nocite{*}
+    \printbibliography[heading=subbib,title={Journal Articles},resetnumbers=true]
+  \end{refsection}
+
+  %------------ Book chapters -------------------
+  \vspace{\smallskipamount}
+  \begin{refsection}[chapters.bib]
+    \nocite{*}
+    \printbibliography[heading=subbib,title={Book Chapters},resetnumbers=true]
+  \end{refsection}
+
+  %------------ Commentaries & Replies ----------
+  \vspace{\smallskipamount}
+  \begin{refsection}[comments.bib]
+    \nocite{*}
+    \printbibliography[heading=subbib,title={Commentaries \& Replies},resetnumbers=true]
+  \end{refsection}
+
+  %------------ Edited volumes ------------------
+  \vspace{\smallskipamount}
+  \begin{refsection}[edited.bib]
+    \nocite{*}
+    \printbibliography[heading=subbib,title={Edited Volumes},resetnumbers=true]
+  \end{refsection}
+
+\sectionlineskip
+\end{content}
+
+% ---------- helper (place once in the preamble) ----------
+\newlength{\talksep}
+\setlength{\talksep}{0.1em}         % vertical space between talks
+
+\newcommand{\talk}[3]{%  #1 = year   #2 = title   #3 = venue
+  #1\hspace{1.2em} \textbf{#2}\\[-0.3em]
+  \hspace*{2.8em}\emph{#3}\\[\talksep]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INVITED TALKS
+\section{Invited Talks}
+\begin{content}
+  \talk{2025}{Secret Rules and Who Would Like to Enforce Them}{Legal Interpretation and Moral Reasoning Workshop, University of Granada, Spain}
+
+  \talk{2025}{‘Text’ and Textualism: A Computational Reading of U.S. Federal Caselaw}{Georgetown University — Computational Linguistics Joint Lab Meeting -- Washington DC, United States}
+
+  \talk{2025}{Law, Ignorance, and Counterfactual Salience: Evidence from 110k Reddit Posts}{Yale University — Knobe Lab Meeting -- New Haven, United States}
+
+  \talk{2025}{Ignorance of Law Does Not Excuse: A New Empirical Account}{CUNY Graduate Center — PsyPhi Lab Meeting -- New York City, United States}
+
+  \talk{2025}{Legal Interpretation and Settlement Behavior: Evidence from a Lab Experiment}{Symposium on Legal Interpretation and Data — Washington DC, United States}
+
+  \talk{2024}{Ignorance of Law Does Not Excuse: A New Empirical Account}{Experimental Methods in Legal Scholarship Workshop — Bonn, Germany}
+
+  \talk{2023}{Rationality, Focality, Publicity: Experimental Jurisprudence and Salience Reasoning}{Law and Rationality Conference — Lisbon, Portugal}
+
+  \talk{2022}{Justice Before Expediency: Robust Intuitive Support for Rights Protection in Criminalization Decisions}{Instituto Tecnológico Autónomo de México -- Mexico City, Mexico}
+
+  \talk{2022}{Proxy Crimes and How to Find Them (keynote)}{Polish Legal Theory Congress — Katowice, Poland}
+
+  \talk{2021}{Democratic Judicial Activism (with A. Harel and A. Morell)}{University of Maryland Carey School of Law — Constitutional Law \& Economics Workshop -- Baltimore, United States}
+
+  \talk{2018}{Behavioral Biases in Legal Adjudication: Anchoring Effect and Hindsight Bias}{University of Lucerne -- Lucerne, Switzerland}
+\sectionlineskip
+\end{content}
+
+% ---------------- helper (place once, e.g. in the preamble) ----------------
+\newlength{\grantsep}
+\setlength{\grantsep}{0.8em}     % vertical gap between grants
+
+% \grant{years}{scheme}{funder}{title}{amount}
+\newcommand{\grant}[5]{%
+  \textbf{#2}\hfill #1 — \$#5\\[-0.3em]
+  \emph{#3}\\[-0.3em]
+  #4\\[\grantsep]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GRANTS
+\section{Grants}
+\begin{content}
+  \grant{2025–2026}{FLL}{Excellence Initiative at the Jagiellonian University}
+        {Multiplayer online experiments as a research tool in experimental jurisprudence}
+        {41\,667}
+
+  \grant{2024–2028}{OPUS}{National Science Centre, Poland}
+        {Ignorance of Law: A Study in Experimental Jurisprudence}
+        {455\,890}
+
+  \grant{2018–2019}{ETIUDA}{National Science Centre, Poland}
+        {The problem of the justification of proxy criminalisation: An economic analysis}
+        {27\,537}
+
+  \grant{2017–2021}{PRELUDIUM}{National Science Centre, Poland}
+        {The problem of the justification of proxy criminalisation: An economic analysis}
+        {22\,578}
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SERVICE TO PROFESSION
+\section{Service to Profession}
+\begin{content}
+\begin{itemize}[leftmargin=*, itemsep=0.4em]
+  \item \textbf{Journal referee}\,: \emph{Acta Analytica}; \emph{Applied Cognitive Psychology}; \emph{Asian Bioethics Review}; \emph{Clinical Ethics} (2x); \emph{Cluster Computing}; \emph{Cognitive Science}; \emph{Criminal Justice Review}; \emph{Diametros} (2×); \emph{Digital Scholarship in the Humanities}; \emph{Experimental Psychology}; \emph{Health Care Analysis}; \emph{International Journal for the Semiotics of Law}; \emph{JME Practical Bioethics}; \emph{Oñati Socio-Legal Series}; \emph{Peer Community in Registered Reports} (3x); \emph{Social Psychological and Personality Science}; \emph{Studia Iuridica}; \emph{Synthese} (3×).
+
+  \item \textbf{Book reviewer}\,: Bloomsbury Publishing.
+  
+  \item \textbf{Grant reviewer}\,: Agence Nationale de la Recherche, France.
+  
+  \item \textbf{Conference reviewer}\,: Cognitive Science Annual Meeting; European Experimental Philosophy Conference.
+  
+  \item \textbf{Member}\,: Research Ethics Committee, Jagiellonian University (2022–present).
+
+  \item \textbf{Organizer}\,: 4th European Experimental Philosophy Conference; Symposium on \emph{LLMs for xPhi}; Yale-Oxford-Jagiellonian bioxphi Summit.
+
+\end{itemize}
+\sectionlineskip
+\end{content}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCTORAL CO-SUPERVISION
+\section{Doctoral Students (co-supervision)}
+ \begin{content}
+%   % helper – once is enough if you re-use it elsewhere
+   \newcommand{\phd}[3]{%
+     \textbf{#2}\hfill #1–present\\[-0.3em]
+     \emph{#3}\\[0.6em]}
+
+   \phd{2025-}{Jakub Figura}{Responsibility for LLM hallucinations}
+   \phd{2022-}{Maciej Macuga}{Legal and Moral Permissibility of Immunity Passports}
+ \sectionlineskip
+ \end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TECHNICAL SKILLS
+\section{Technical Skills}
+\begin{content}
+  \begin{tabular}{@{} >{\bfseries}l @{\hspace{4ex}} p{0.75\linewidth}@{}}
+    Programming & Python, JavaScript, Bash \\[0.3em]
+    Statistical computing & R (\texttt{tidyverse}), Python (\texttt{pandas}, \texttt{scikit-learn}) \\[0.3em]
+    NLP & Python (\texttt{NLTK}, \texttt{gensim}, \texttt{spaCy}, \texttt{transformers}) \\[0.3em]
+    Data collection & Qualtrics, Prolific, Empirica, oTree \\
+  \end{tabular}
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LANGUAGES
+\section{Languages}
+\begin{content}
+  \begin{tabular}{@{}l l@{}}
+    Polish       & -- native \\
+    English      & -- fluent \\
+    Portuguese   & -- fluent \\
+    Spanish      & -- reading proficiency \\
+  \end{tabular}
+\sectionlineskip
+\end{content}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END
+\end{document}

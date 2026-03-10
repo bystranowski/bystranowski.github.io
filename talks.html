@@ -5,30 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Piotr Bystranowski | Talks</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon-32.png"
-    />
-    <!-- High-resolution / Apple touch -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon-180.png"
-    />
-
-    <!--
-      Google
-      Fonts
-      --
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Shared stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
     <style>
@@ -43,7 +25,6 @@
         padding-left: 0;
       }
       .talk-item {
-        /* two-column grid keeps start aligned */
         display: grid;
         grid-template-columns: 110px 1fr;
         column-gap: 0.75rem;
@@ -52,7 +33,7 @@
       .talk-date {
         font-weight: 600;
         color: var(--dark);
-        white-space: normal; /* allow wrapping within 110px */
+        white-space: normal;
       }
       /* invited talk highlight */
       .invited {
@@ -63,9 +44,8 @@
       .poster {
         border-left: 4px solid transparent;
         padding-left: 0.75rem;
-        /* font-style: italic; */
       }
-      /* past transparency */
+      /* past transparency — applied by JS */
       .past {
         opacity: 0.35;
       }
@@ -93,108 +73,72 @@
         </div>
       </div>
     </header>
-    <!-- Legend -->
-    <!-- Legend -->
-    <!-- Legend (place just above the “2025” heading) -->
-    <!-- Legend – insert just above the “2025” heading -->
-    <!-- Legend -->
-
-    <main class="talks-wrapper">
-      <h1>Talks</h1>
-      <div class="talk-item invited">
-        <span style="font-style: italic"
-          >highlighted talks are invited talks</span
-        >
-      </div>
-    </main>
 
     <!-- ===== TALKS ===== -->
     <main class="talks-wrapper">
+      <h1>Talks</h1>
+      <div class="talk-item invited" style="margin-bottom: 1.5rem">
+        <span style="font-style: italic">highlighted talks are invited talks</span>
+      </div>
+
+      <!-- year-2025 -->
       <h2>2025</h2>
       <ul class="talk-list">
-        <!-- Upcoming invited -->
-        <li class="talk-item invited">
-          <span class="talk-date">05–07 Nov</span>
-          <span
-            ><strong>TBD</strong> <br />Legal Interpretation and Moral Reasoning
-            Workshop, University of Granada, Spain</span
-          >
+  
+                <li class="talk-item invited" data-date="2025-11-07">
+          <span class="talk-date">5-7 Nov</span>
+          <span><strong>Secret Rules and Who Would Like to Enforce Them</strong> <br />Legal Interpretation and Moral Reasoning Workshop, University of Granada, Spain</span>
         </li>
-        <!-- Poster (non‑invited) -->
-        <li class="talk-item past poster">
+        <li class="talk-item poster" data-date="2025-05-24">
           <span class="talk-date">24 May</span>
-          <span
-            ><strong
-              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
-              Reddit Posts</strong
-            >
-            <br />Law and Society Association, Chicago, USA</span
-          >
+          <span><strong>Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong>
+            <br />Law and Society Association, Chicago, USA</span>
         </li>
-        <!-- Invited past talks -->
-        <li class="talk-item past invited">
-          <span class="talk-date">07 May</span>
-          <span
-            ><strong
-              >“Text” and Textualism: A Computational Reading of U.S. Federal
-              Caselaw</strong
-            >
+        <li class="talk-item invited" data-date="2025-05-07">
+          <span class="talk-date">7 May</span>
+          <span><strong>&ldquo;Text&rdquo; and Textualism: A Computational Reading of U.S. Federal
+              Caselaw</strong>
             <br />Computational Linguistics Joint Lab Meeting, Georgetown
-            University, Washington DC, USA</span
-          >
+            University, Washington DC, USA</span>
         </li>
-        <li class="talk-item past invited">
+        <li class="talk-item invited" data-date="2025-04-25">
           <span class="talk-date">25 Apr</span>
-          <span
-            ><strong
-              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
-              Reddit Posts</strong
-            >
-            <br />Knobe Lab Meeting, Yale University, New Haven, USA</span
-          >
+          <span><strong>Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong>
+            <br />Knobe Lab Meeting, Yale University, New Haven, USA</span>
         </li>
-        <li class="talk-item past invited">
+        <li class="talk-item invited" data-date="2025-04-09">
           <span class="talk-date">9 Apr</span>
-          <span
-            ><strong
-              >Ignorance of Law Does Not Excuse: A New Empirical Account</strong
-            >
-            <br />
-            PsyPhi Lab Meeting, CUNY Graduate Center, New York City, USA</span
-          >
+          <span><strong>Ignorance of Law Does Not Excuse: A New Empirical Account</strong>
+            <br />PsyPhi Lab Meeting, CUNY Graduate Center, New York City, USA</span>
         </li>
-        <li class="talk-item past invited">
+        <li class="talk-item invited" data-date="2025-03-14">
           <span class="talk-date">14 Mar</span>
-          <span
-            ><strong
-              >Legal Interpretation and Settlement Behavior: Evidence from a Lab
-              Experiment</strong
-            >
-            <br />Symposium on Legal Interpretation and Data, Washington DC,
-            USA</span
-          >
+          <span><strong>Legal Interpretation and Settlement Behavior: Evidence from a Lab
+              Experiment</strong>
+            <br />Symposium on Legal Interpretation and Data, Washington DC, USA</span>
         </li>
-        <li class="talk-item past poster">
+        <li class="talk-item poster" data-date="2025-02-22">
           <span class="talk-date">22 Feb</span>
-          <span
-            ><strong
-              >Law, Ignorance, and Counterfactual Salience: Evidence from 110k
-              Reddit Posts</strong
-            >
-            (poster) <br />
-            SPSP Annual Meeting, Denver, USA</span
-          >
+          <span><strong>Law, Ignorance, and Counterfactual Salience: Evidence from 110k
+              Reddit Posts</strong> (poster)
+            <br />SPSP Annual Meeting, Denver, USA</span>
         </li>
       </ul>
+      <!-- /year-2025 -->
+
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
       <p>
-        &copy; <span id="year"></span> Piotr Bystranowski. All Rights Reserved.
+        &copy; <span id="year"></span> Piotr&nbsp;Bystranowski. All Rights Reserved.
       </p>
     </footer>
 
     <script>
+      // Burger menu
       const burger = document.getElementById("burger");
       const navLinks = document.getElementById("navLinks");
       burger.addEventListener("click", () => {
@@ -202,6 +146,12 @@
         burger.classList.toggle("open");
       });
       document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Auto-apply .past to talks whose date has passed
+      document.querySelectorAll(".talk-item[data-date]").forEach(el => {
+        const d = new Date(el.dataset.date + "T23:59:59");
+        if (d < new Date()) el.classList.add("past");
+      });
     </script>
   </body>
 </html>

@@ -1,0 +1,1238 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{dranseika2025journal}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8ffd5664fcc8b3ee6f13a1f0d29467ec}{%
+           family={Żuradzki},
+           familyi={Ż\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Medical Ethics}%
+      }
+      \strng{namehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{fullhash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{fullhashraw}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{bibnamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorbibnamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authornamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorfullhash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorfullhashraw}{ee8eca6f099d4fc589236812dddda0f0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of medical ethics}
+      \field{title}{Journal of Medical Ethics at 50: a data-driven history}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{TobiaEtAl2024}{article}{}{}
+      \name{author}{17}{}{%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0eb000446fb3eeddb5ed7baafd9bc33d}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2a953c926e69a661bf898a6325e50df1}{%
+           family={Kamper},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dcedffd9f14748fe42e852d172ccb832}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c6ead5b11d211803efa8f8a29f96417d}{%
+           family={Strohmaier},
+           familyi={S\bibinitperiod},
+           given={Niek},
+           giveni={N\bibinitperiod}}}%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=412f274a50ec8e1bec7c2f6f996e0b20}{%
+           family={Kneer},
+           familyi={K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8905606782c6c3e6df552a6f338c7fe8}{%
+           family={Aguiar},
+           familyi={A\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a4827aa1997b174a148c8ce045b73544}{%
+           family={Dolinina},
+           familyi={D\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8879612bf263533b6ff54299b2cbba0e}{%
+           family={Lauraitytė},
+           familyi={L\bibinitperiod},
+           given={Eglė},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a30e0493f760044568785ad9c8369f8a}{%
+           family={Liefgreen},
+           familyi={L\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1766c3f74dbf467e8d09ac03a02dbafd}{%
+           family={Rosas},
+           familyi={R\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4a3a28bf90a4f034ebeb9ad7d1ac97e8}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Vivek\bibnamedelima Kumar},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=aa7858145da41e188d2be682d8cafa01}{%
+           family={Struchiner},
+           familyi={S\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University}%
+      }
+      \strng{namehash}{b076633c2d6bbc7b882ea446d14832f8}
+      \strng{fullhash}{01e7e5c19105caffde5358ada50d4348}
+      \strng{fullhashraw}{01e7e5c19105caffde5358ada50d4348}
+      \strng{bibnamehash}{01e7e5c19105caffde5358ada50d4348}
+      \strng{authorbibnamehash}{01e7e5c19105caffde5358ada50d4348}
+      \strng{authornamehash}{b076633c2d6bbc7b882ea446d14832f8}
+      \strng{authorfullhash}{01e7e5c19105caffde5358ada50d4348}
+      \strng{authorfullhashraw}{01e7e5c19105caffde5358ada50d4348}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Stanford Journal of International Law}
+      \field{title}{The Nature of Reasonableness}
+      \field{volume}{61}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{111\bibrangedash 155}
+      \range{pages}{45}
+    \endentry
+    \entry{zuradzki2025discussions}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8ffd5664fcc8b3ee6f13a1f0d29467ec}{%
+           family={Żuradzki},
+           familyi={Ż\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{fullhash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{fullhashraw}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{bibnamehash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{authorbibnamehash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{authornamehash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{authorfullhash}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \strng{authorfullhashraw}{da48e1b3370c783c5ed4e6e74ba119d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science and Engineering Ethics}
+      \field{number}{1}
+      \field{title}{Discussions on Human Enhancement Meet Science: A Quantitative Analysis}
+      \field{volume}{31}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{6}
+      \range{pages}{1}
+    \endentry
+    \entry{bystranowski2024self}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Klub Revus--Center za raziskovanje evropske ustavnosti in demokracije}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revus. Journal for Constitutional Theory and Philosophy of Law/Revija za ustavno teorijo in filozofijo prava}
+      \field{number}{54}
+      \field{title}{Self-absorbed, yet interesting?. A bibliometric study on general jurisprudence}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{Bystranowski_Janik_Próchnicki_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{fullhash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{fullhashraw}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{bibnamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorbibnamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authornamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorfullhash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorfullhashraw}{ebeba1540c14f3e7976487359f07ae38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Law \&; Social Inquiry}
+      \field{number}{4}
+      \field{title}{Uncertainty and Condemnation. An Experimental Study on Lay and Expert Intuitions Regarding the Object of Criminal Punishment}
+      \field{volume}{49}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1964\bibrangedash 1989}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1017/lsi.2023.73
+      \endverb
+    \endentry
+    \entry{BystranowskiTobia2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{fullhash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{fullhashraw}{489aac2329c2fcb55d495907dc57454f}
+      \strng{bibnamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorbibnamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authornamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorfullhash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorfullhashraw}{489aac2329c2fcb55d495907dc57454f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Institutional and Theoretical Economics}
+      \field{number}{2}
+      \field{title}{Measuring Meta-Interpretation}
+      \field{volume}{180}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{281\bibrangedash 305}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1628/jite-2024-0011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mohrsiebeck.com/en/article/measuring-meta-interpretation-101628jite-2024-0011/
+      \endverb
+      \verb{url}
+      \verb https://www.mohrsiebeck.com/en/article/measuring-meta-interpretation-101628jite-2024-0011/
+      \endverb
+    \endentry
+    \entry{Isern-Mas2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=597ac97be43169a0bbdf7d8c36b8d241}{%
+           family={Isern-Mas},
+           familyi={I\bibinithyphendelim M\bibinitperiod},
+           given={Carme},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3b411d06c3fb673a42c0093814fbecc9}{%
+           family={Rueda},
+           familyi={R\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0eb000446fb3eeddb5ed7baafd9bc33d}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5517104e0f0e866754ce1a8672c5e399}
+      \strng{fullhash}{022d01420e891be3bc8d78ad52b4c549}
+      \strng{fullhashraw}{022d01420e891be3bc8d78ad52b4c549}
+      \strng{bibnamehash}{022d01420e891be3bc8d78ad52b4c549}
+      \strng{authorbibnamehash}{022d01420e891be3bc8d78ad52b4c549}
+      \strng{authornamehash}{5517104e0f0e866754ce1a8672c5e399}
+      \strng{authorfullhash}{022d01420e891be3bc8d78ad52b4c549}
+      \strng{authorfullhashraw}{022d01420e891be3bc8d78ad52b4c549}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{11}
+      \field{title}{Does Momentary Outcome-Based Reflection Shape Bioethical Views? A Pre-Post Intervention Design}
+      \field{volume}{48}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{e70009}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/cogs.70009
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.70009
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.70009
+      \endverb
+    \endentry
+    \entry{justice}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9f1a870b8b6875153359cf9b5d0b6618}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima Rodriguez},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{fullhash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{fullhashraw}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{bibnamehash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{authorbibnamehash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{authornamehash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{authorfullhash}{05ae8535cbd3f604b7b74cf67052d84a}
+      \strng{authorfullhashraw}{05ae8535cbd3f604b7b74cf67052d84a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Philosophy and Psychology}
+      \field{number}{1-23}
+      \field{title}{Justice before Expediency: Robust Intuitive Concern for Rights Protection in Criminalization Decisions}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{palka2023citizen}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3dc8d290eabf981b70966893dffc7f86}{%
+           family={Pa{ł}ka},
+           familyi={P\bibinitperiod},
+           given={Przemys{ł}aw},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{321eb956ccbea10d4eba56f2b8ecdc1c}
+      \strng{fullhash}{b22af9a99e14db9660281c15f419b1ab}
+      \strng{fullhashraw}{b22af9a99e14db9660281c15f419b1ab}
+      \strng{bibnamehash}{b22af9a99e14db9660281c15f419b1ab}
+      \strng{authorbibnamehash}{b22af9a99e14db9660281c15f419b1ab}
+      \strng{authornamehash}{321eb956ccbea10d4eba56f2b8ecdc1c}
+      \strng{authorfullhash}{b22af9a99e14db9660281c15f419b1ab}
+      \strng{authorfullhashraw}{b22af9a99e14db9660281c15f419b1ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diritto \& Questioni Pubbliche}
+      \field{title}{When “a Citizen” Becomes Little {M}ary {J}. The Abstract-concrete Effects in Legal Reasoning and the Rule of Law}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{TMbioethics}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8ffd5664fcc8b3ee6f13a1f0d29467ec}{%
+           family={Żuradzki},
+           familyi={Ż\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{fullhash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{fullhashraw}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{bibnamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorbibnamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authornamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorfullhash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorfullhashraw}{723212ff9481d9d271a65b1f90f5d8a8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioethics}
+      \field{number}{36 (9), 902-925}
+      \field{title}{Half a century of bioethics and philosophy of medicine: A topic‐modeling study}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{semiothics}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9f1a870b8b6875153359cf9b5d0b6618}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima Rodriguez},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ae64283e648715b6776728d38093041a}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Guilherme\bibnamedelimb F.\bibnamedelimi C.\bibnamedelimi de},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=aa7858145da41e188d2be682d8cafa01}{%
+           family={Struchiner},
+           familyi={S\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{fullhash}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \strng{fullhashraw}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \strng{bibnamehash}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \strng{authorbibnamehash}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \strng{authornamehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{authorfullhash}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \strng{authorfullhashraw}{e40ddc5ef8afe34f3eb8d2815cc46a12}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal for the Semiotics of Law-Revue internationale de…}
+      \field{title}{Do formalist judges abide by their abstract principles? A two-country study in adjudication}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{proxy}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ddd3f2b6e54cd3777228dc7715b1599d}{%
+           family={Mungan},
+           familyi={M\bibinitperiod},
+           given={Murat},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dff69e21f607461a2e50add40aafd223}
+      \strng{fullhash}{dff69e21f607461a2e50add40aafd223}
+      \strng{fullhashraw}{dff69e21f607461a2e50add40aafd223}
+      \strng{bibnamehash}{dff69e21f607461a2e50add40aafd223}
+      \strng{authorbibnamehash}{dff69e21f607461a2e50add40aafd223}
+      \strng{authornamehash}{dff69e21f607461a2e50add40aafd223}
+      \strng{authorfullhash}{dff69e21f607461a2e50add40aafd223}
+      \strng{authorfullhashraw}{dff69e21f607461a2e50add40aafd223}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Criminal Law Review}
+      \field{number}{59, 1}
+      \field{title}{Proxy Crimes}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{pnas}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=9f1a870b8b6875153359cf9b5d0b6618}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima Rodriguez},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a39a868a44888fb9dbe470949c15ade6}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={GFCF\bibnamedelima de},
+           giveni={G\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=aa7858145da41e188d2be682d8cafa01}{%
+           family={Struchiner},
+           familyi={S\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=412f274a50ec8e1bec7c2f6f996e0b20}{%
+           family={Kneer},
+           familyi={K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3923f865fdd74b50751c5516598d9901}
+      \strng{fullhash}{1b739c183a64013035d3eac6d9c81f00}
+      \strng{fullhashraw}{1b739c183a64013035d3eac6d9c81f00}
+      \strng{bibnamehash}{1b739c183a64013035d3eac6d9c81f00}
+      \strng{authorbibnamehash}{1b739c183a64013035d3eac6d9c81f00}
+      \strng{authornamehash}{3923f865fdd74b50751c5516598d9901}
+      \strng{authorfullhash}{1b739c183a64013035d3eac6d9c81f00}
+      \strng{authorfullhashraw}{1b739c183a64013035d3eac6d9c81f00}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{119 (44), e2206531119}
+      \field{title}{Coordination and expertise foster legal textualism}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{anchoring}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=100853be9d653c86d0dee9b43241fe36}{%
+           family={Skórska},
+           familyi={S\bibinitperiod},
+           given={Paulina},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{fullhash}{af483d5d4cf6b040aba77a7b21fbe851}
+      \strng{fullhashraw}{af483d5d4cf6b040aba77a7b21fbe851}
+      \strng{bibnamehash}{af483d5d4cf6b040aba77a7b21fbe851}
+      \strng{authorbibnamehash}{af483d5d4cf6b040aba77a7b21fbe851}
+      \strng{authornamehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{authorfullhash}{af483d5d4cf6b040aba77a7b21fbe851}
+      \strng{authorfullhashraw}{af483d5d4cf6b040aba77a7b21fbe851}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Law and Human Behavior}
+      \field{number}{45 (1), 1}
+      \field{title}{Anchoring effect in legal decision-making: A meta-analysis.}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{principles}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{8}{}{%
+        {{hash=9f1a870b8b6875153359cf9b5d0b6618}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima Rodriguez},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a39a868a44888fb9dbe470949c15ade6}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={GFCF\bibnamedelima de},
+           giveni={G\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=4ad16cfe57cb4ae93161115a70ad1bf5}{%
+           family={Donelson},
+           familyi={D\bibinitperiod},
+           given={Raff},
+           giveni={R\bibinitperiod}}}%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=412f274a50ec8e1bec7c2f6f996e0b20}{%
+           family={Kneer},
+           familyi={K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6ead5b11d211803efa8f8a29f96417d}{%
+           family={Strohmaier},
+           familyi={S\bibinitperiod},
+           given={Niek},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3923f865fdd74b50751c5516598d9901}
+      \strng{fullhash}{78567fa9e41f769e36f6397738d84aa0}
+      \strng{fullhashraw}{78567fa9e41f769e36f6397738d84aa0}
+      \strng{bibnamehash}{78567fa9e41f769e36f6397738d84aa0}
+      \strng{authorbibnamehash}{78567fa9e41f769e36f6397738d84aa0}
+      \strng{authornamehash}{3923f865fdd74b50751c5516598d9901}
+      \strng{authorfullhash}{78567fa9e41f769e36f6397738d84aa0}
+      \strng{authorfullhashraw}{78567fa9e41f769e36f6397738d84aa0}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{number}{45 (8), e13024}
+      \field{title}{Are there cross‐cultural legal principles? Modal reasoning uncovers procedural constraints on law}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{diametros}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diametros}
+      \field{number}{26-49}
+      \field{title}{Retributivism, consequentialism, and the risk of punishing the innocent: The troublesome case of proxy crimes}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{pip}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Państwo i Prawo}
+      \field{number}{71 (5 (843))}
+      \field{title}{Ekonomiczna analiza prawa wobec problemu optymalnej precyzji dyrektyw prawnych}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{tbsp}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Internetowy Przegląd Prawniczy TBSP UJ}
+      \field{title}{O nieefektywności regulacji ryzyka z punktu widzenia behawioralnej ekonomicznej analizy prawa i kulturowej teorii ryzyka}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{coordination}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9f1a870b8b6875153359cf9b5d0b6618}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima Rodriguez},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{fullhash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{fullhashraw}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{bibnamehash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{authorbibnamehash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{authornamehash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{authorfullhash}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{authorfullhashraw}{42f4f39f8f67637fc45b519518e4e842}
+      \strng{editorbibnamehash}{04d059bb311f4633e1046108c76d7f5e}
+      \strng{editornamehash}{04d059bb311f4633e1046108c76d7f5e}
+      \strng{editorfullhash}{04d059bb311f4633e1046108c76d7f5e}
+      \strng{editorfullhashraw}{04d059bb311f4633e1046108c76d7f5e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cambridge Handbook to Experimental Jurisprudence}
+      \field{title}{Legal Interpretation as Coordination}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{546\bibrangedash 577}
+      \range{pages}{32}
+    \endentry
+    \entry{BystranowskiTobia2025}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=04d059bb311f4633e1046108c76d7f5e}{%
+           family={Tobia},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=76ffd844f819fa55fff98a2d03ad5c0d}{%
+           family={Pontrandolfo},
+           familyi={P\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a6734a51fb0a5ce6acd504445004dcda}{%
+           family={Goźdź-Roszkowski},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Stanisław},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter Mouton}%
+      }
+      \strng{namehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{fullhash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{fullhashraw}{489aac2329c2fcb55d495907dc57454f}
+      \strng{bibnamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorbibnamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authornamehash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorfullhash}{489aac2329c2fcb55d495907dc57454f}
+      \strng{authorfullhashraw}{489aac2329c2fcb55d495907dc57454f}
+      \strng{editorbibnamehash}{a4ad1cd2beb719daee3544fd3448a0e6}
+      \strng{editornamehash}{a4ad1cd2beb719daee3544fd3448a0e6}
+      \strng{editorfullhash}{a4ad1cd2beb719daee3544fd3448a0e6}
+      \strng{editorfullhashraw}{a4ad1cd2beb719daee3544fd3448a0e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{In the Minds of Judges: Argumentative Discourse at the Intersection of Law and Language}
+      \field{chapter}{7}
+      \field{series}{Foundations in Language and Law [FLL]}
+      \field{title}{Computational Methods in Empirical Studies on Legal Interpretation: Before Transformers and After}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{175\bibrangedash 200}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1515/9783111569628-008
+      \endverb
+    \endentry
+    \entry{dyrda2025grounds}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=2d03bc4c3a3254cf99dcf4a24ccd5f17}{%
+           family={Dyrda},
+           familyi={D\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=2d03bc4c3a3254cf99dcf4a24ccd5f17}{%
+           family={Dyrda},
+           familyi={D\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49f0d2efaf9e74f790d47def1108a9a6}{%
+           family={Juzaszek},
+           familyi={J\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=95fe71a6d39b0b15494de4bb4f8e4866}{%
+           family={Biskup},
+           familyi={B\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=17552080e201dca0b60fb615bc37d95b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Cuizhu},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Edward Elgar}%
+      }
+      \strng{namehash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{fullhash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{fullhashraw}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{bibnamehash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{authorbibnamehash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{authornamehash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{authorfullhash}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{authorfullhashraw}{6fd3d65e77ede62aa2d50b1d6684a3c2}
+      \strng{editorbibnamehash}{e33dab4a37ac3533d9b4c6367deddcf1}
+      \strng{editornamehash}{3147cad8977d9cc8ad617eac5fa313a9}
+      \strng{editorfullhash}{e33dab4a37ac3533d9b4c6367deddcf1}
+      \strng{editorfullhashraw}{e33dab4a37ac3533d9b4c6367deddcf1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ethics of Institutional Beliefs: From Theoretical to Empirical}
+      \field{chapter}{9}
+      \field{title}{What Grounds the Rule of Recognition? Postulates for Experimental Hartian Legal Positivism}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{176\bibrangedash 198}
+      \range{pages}{23}
+    \endentry
+    \entry{debiasing}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{fullhash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{fullhashraw}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{bibnamehash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{authorbibnamehash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{authornamehash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{authorfullhash}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{authorfullhashraw}{e3499bfccbbfb8a17e369b72d08cea23}
+      \strng{editorbibnamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{editornamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{editorfullhash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{editorfullhashraw}{ebeba1540c14f3e7976487359f07ae38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Judicial Decision-Making: Integrating Empirical and Theoretical Perspectives}
+      \field{title}{Debiasing numerical verdicts and judicial discretion: reflections on mitigating the anchoring effect in judicial decision-making}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{kuhn}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=a792b9dd9ead1c20431d4c59c3badcb3}{%
+           family={Cserne},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4dd7e143d56622343379cb1ad785b7fc}{%
+           family={Małecka},
+           familyi={M\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{editorbibnamehash}{5e6405a4b0687700679184d5ba0c5539}
+      \strng{editornamehash}{5e6405a4b0687700679184d5ba0c5539}
+      \strng{editorfullhash}{5e6405a4b0687700679184d5ba0c5539}
+      \strng{editorfullhashraw}{5e6405a4b0687700679184d5ba0c5539}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Law and Economics as Interdisciplinary Exchange}
+      \field{number}{31-49}
+      \field{title}{References to Kuhnian philosophy of science in the Law and Economics literature}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{veil}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{fullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{bibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorbibnamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authornamehash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhash}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \strng{authorfullhashraw}{c0fdff42029b1c4b1d81c30b0008eac5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavioral and Brain Sciences}
+      \field{title}{The Veil and the Deal: Bargaining Between Case-Specific Solutions and Unknown Rules}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{Dranseika2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8ffd5664fcc8b3ee6f13a1f0d29467ec}{%
+           family={Żuradzki},
+           familyi={Ż\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{fullhash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{fullhashraw}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{bibnamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorbibnamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authornamehash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorfullhash}{ee8eca6f099d4fc589236812dddda0f0}
+      \strng{authorfullhashraw}{ee8eca6f099d4fc589236812dddda0f0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Medical Ethics}
+      \field{title}{Personal memory and distant reading can complement each other: a reply to Gillon}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1136/jme-2025-111310
+      \endverb
+    \endentry
+    \entry{disconnection}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97c98c485a92412a4e26581f1f3d6c00}{%
+           family={Dranseika},
+           familyi={D\bibinitperiod},
+           given={Vilius},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8ffd5664fcc8b3ee6f13a1f0d29467ec}{%
+           family={Żuradzki},
+           familyi={Ż\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{fullhash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{fullhashraw}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{bibnamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorbibnamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authornamehash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorfullhash}{723212ff9481d9d271a65b1f90f5d8a8}
+      \strng{authorfullhashraw}{723212ff9481d9d271a65b1f90f5d8a8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Bioethics}
+      \field{number}{22 (12), 36-40}
+      \field{title}{The Disconnection That Wasn’t: Philosophy in Modern Bioethics from a Quantitative Perspective}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{springer}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5cdc8faf82ff50f5c3b2780824da6fc2}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=37cc72c7c61ae6b1c9e00f71cdbe5383}{%
+           family={Próchnicki},
+           familyi={P\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{fullhash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{fullhashraw}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{bibnamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorbibnamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authornamehash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorfullhash}{ebeba1540c14f3e7976487359f07ae38}
+      \strng{authorfullhashraw}{ebeba1540c14f3e7976487359f07ae38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Judicial Decision-making: Integrating Empirical and Theoretical Perspectives}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
