@@ -437,7 +437,12 @@ def compile_cv():
                 print(f"  ⚠  '{' '.join(cmd)}' exited with code {result.returncode}")
                 print(result.stdout[-2000:] if result.stdout else "")
                 return False
-        print("  ✓ CV compiled  →  CV/CVnew.pdf")
+        import shutil
+        shutil.copy(
+            os.path.join(cv_dir, "CVnew.pdf"),
+            os.path.join(SCRIPT_DIR, "assets", "Piotr_Bystranowski_CV.pdf")
+        )
+        print("  ✓ CV compiled  →  assets/Piotr_Bystranowski_CV.pdf")
         return True
     except FileNotFoundError as e:
         print(f"  ⚠  Compile failed ({e}). Run manually: cd CV && bash compile_ref.sh")
