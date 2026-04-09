@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  10 MAR 2026 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  9 APR 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,12 +912,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-\grantsep=\skip104
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+\grantsep=\skip104
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
@@ -928,19 +933,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 308.
+ 312.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
 File: ts1clm2j.fd 2025/06/21 Fontinst v1.933 font definitions for TS1/clm2j.
 LaTeX Font Info:    Setting clm2j sub-encoding to TS1/1 on input line 93.
 )
-Overfull \hbox (1.31413pt too wide) in paragraph at lines 341--348
+
+[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (1.31413pt too wide) in paragraph at lines 345--352
 [][]  
  []
 
 
-
-[4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 [5] (./CVnew.aux)
  ***********
@@ -972,7 +982,7 @@ e1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb>
-Output written on CVnew.pdf (5 pages, 230811 bytes).
+Output written on CVnew.pdf (5 pages, 230957 bytes).
 PDF statistics:
  204 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams

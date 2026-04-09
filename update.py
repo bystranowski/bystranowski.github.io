@@ -359,16 +359,17 @@ def add_publication():
 
 # ── Insert into talks.html ────────────────────────────────────────────────────
 
-def insert_talk_html(talk_date, display_date, title, venue, is_invited, is_poster):
+def insert_talk_html(talk_date, display_date, title, venue, is_invited, is_poster, copresenters=""):
     content  = rfile(TALKS_HTML)
     year     = str(talk_date.year)
     cls      = "talk-item " + ("invited" if is_invited else "poster")
     note     = " (poster)" if is_poster else ""
     date_str = talk_date.strftime("%Y-%m-%d")
+    with_str = f" (with {copresenters})" if copresenters else ""
 
     li = (f'        <li class="{cls}" data-date="{date_str}">\n'
           f'          <span class="talk-date">{display_date}</span>\n'
-          f'          <span><strong>{title}</strong>{note} <br />{venue}</span>\n'
+          f'          <span><strong>{title}</strong>{note}{with_str} <br />{venue}</span>\n'
           f'        </li>')
 
     year_marker = f'<!-- year-{year} -->'
@@ -450,13 +451,14 @@ def compile_cv():
 
 # ── Insert into CVnew.tex ─────────────────────────────────────────────────────
 
-def insert_talk_cv(year, title, venue):
+def insert_talk_cv(year, title, venue, copresenters=""):
     content = rfile(CV_TEX)
 
     def ltx(s):
         return s.replace("&", "\\&").replace("%", "\\%").replace("$", "\\$").replace("#", "\\#")
 
-    new_talk = f"\n  \\talk{{{year}}}{{{ltx(title)}}}{{{ltx(venue)}}}\n"
+    venue_str = venue + (f" (with {copresenters})" if copresenters else "")
+    new_talk = f"\n  \\talk{{{year}}}{{{ltx(title)}}}{{{ltx(venue_str)}}}\n"
 
     m = re.search(r'\\section\{Invited Talks\}.*?\\begin\{content\}', content, re.DOTALL)
     if not m:
@@ -478,17 +480,18 @@ def add_talk():
     is_poster    = False
     if not is_invited:
         is_poster = ask_yn("Poster?", default=False)
+    copresenters = ask("Co-presenter(s) (leave blank if none)", default="")
 
     try:
         talk_date = datetime.strptime(date_str, "%Y-%m-%d").date()
     except ValueError:
         print("  Invalid date format — use YYYY-MM-DD."); return
 
-    insert_talk_html(talk_date, display_date, title, venue, is_invited, is_poster)
+    insert_talk_html(talk_date, display_date, title, venue, is_invited, is_poster, copresenters)
     print(f"\n  ✓ Talk added  →  talks.html")
 
     if is_invited:
-        insert_talk_cv(talk_date.year, title, venue)
+        insert_talk_cv(talk_date.year, title, venue, copresenters)
         print(f"  ✓ Talk added  →  CV/CVnew.tex")
         compile_cv()
 
