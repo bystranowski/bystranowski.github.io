@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Incentivized Experiments on Normative Systems — Kraków 2026</title>
+  <meta property="og:title" content="Incentivized Experiments on Normative Systems">
+  <meta property="og:description" content="Workshop · May 25–26, 2026 · Rynek Główny 34, Kraków · Keynotes: Cristina Bicchieri, Erin Krupka">
+  <meta property="og:url" content="https://incent-exp.vercel.app">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://incent-exp.vercel.app/plakat.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
@@ -441,19 +447,17 @@
         border-right: none;
         border-bottom: 1px solid var(--rule);
         flex-direction: row;
-        align-items: flex-start;
-        padding: 1.5rem 1.5rem 1rem;
-        gap: 1rem;
-        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem 1.5rem;
+        gap: 0;
       }
 
-      .nav-sub { margin-bottom: 0; }
-      .nav-brand { margin-bottom: 0; }
+      .nav-sub { display: none; }
+      .nav-brand { margin-bottom: 0; font-size: 0.82rem; }
       .nav-cta { margin-top: 0; }
 
-      nav ul { flex-direction: row; gap: 0.1rem; flex-wrap: wrap; }
-      nav ul li a::before { display: none; }
-      nav ul li a { padding: 0.3rem 0.5rem; letter-spacing: 0.07em; }
+      nav ul { display: none; }
 
       body { flex-direction: column; }
       main { margin-left: 0; }
@@ -491,7 +495,7 @@
     <div class="hero-right">
       <div class="hb-item">
         <span class="hb-label">Date</span>
-        <span class="hb-value">May 25–27, 2026</span>
+        <span class="hb-value">May 25–26, 2026</span>
       </div>
       <div class="hb-item">
         <span class="hb-label">Location</span>
@@ -633,7 +637,7 @@
           <td class="time-col">16:50–17:50</td>
           <td>
             <div class="spk">Cristina Bicchieri</div>
-            <div class="ttl">Talk title to be announced</div>
+            <div class="ttl">Asymmetric Inferences from Norm Information: Behavior Valence and Social Consequences Shape the Direction of Is–Ought Inference</div>
           </td>
         </tr>
       </tbody></table>
@@ -642,15 +646,22 @@
     <!-- Day 3 -->
     <div class="day-panel" id="day3">
       <table class="schedule"><tbody>
-        <tr class="brk">
-          <td class="time-col">Morning</td>
-          <td>Optional tutorial — separate registration required</td>
-        </tr>
         <tr>
-          <td class="time-col">11:00</td>
+          <td class="time-col">11:00–13:00</td>
           <td>
             <div class="spk">Brandon Waldon</div>
-            <div class="ttl">Workshop: Implementing Experiments in Empirica — hands-on introduction to the platform for running synchronous online experiments</div>
+            <div class="ttl">Tutorial: Implementing Experiments in Empirica — hands-on introduction to the platform for running synchronous online experiments (Part 1)</div>
+          </td>
+        </tr>
+        <tr class="brk">
+          <td class="time-col">13:00–14:00</td>
+          <td>Lunch Break</td>
+        </tr>
+        <tr>
+          <td class="time-col">14:00–16:00</td>
+          <td>
+            <div class="spk">Brandon Waldon</div>
+            <div class="ttl">Tutorial: Implementing Experiments in Empirica — hands-on introduction to the platform for running synchronous online experiments (Part 2)</div>
           </td>
         </tr>
       </tbody></table>
@@ -675,7 +686,7 @@
       3. Replace YOUR_FORM_ID below
       Submissions are emailed to you and stored in the Formspree dashboard.
     -->
-    <form id="reg-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form id="reg-form" action="https://formspree.io/f/mlgawopa" method="POST">
       <input type="hidden" name="_subject" value="Workshop Registration — Incentivized Experiments on Normative Systems">
 
       <div class="form-group">
@@ -794,6 +805,9 @@
     }
   });
 </script>
+
+<!-- Vercel Web Analytics -->
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 
 </body>
 </html>

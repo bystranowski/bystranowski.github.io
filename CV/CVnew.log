@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  9 APR 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  16 MAY 2026 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,13 +896,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
  []
 
 
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-
-[3]
 Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
@@ -917,36 +917,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
- []
-
 \grantsep=\skip104
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 312.
+ 310.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
 File: ts1clm2j.fd 2025/06/21 Fontinst v1.933 font definitions for TS1/clm2j.
 LaTeX Font Info:    Setting clm2j sub-encoding to TS1/1 on input line 93.
 )
 
 [4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (1.31413pt too wide) in paragraph at lines 345--352
+Overfull \hbox (1.31413pt too wide) in paragraph at lines 343--350
 [][]  
  []
 
@@ -964,13 +959,13 @@ Package logreq Info: Writing requests to 'CVnew.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19888 strings out of 467888
- 350369 string characters out of 5434068
- 1213984 words of memory out of 5000000
- 48134 multiletter control sequences out of 15000+600000
+ 19894 strings out of 467888
+ 350641 string characters out of 5434068
+ 1214051 words of memory out of 5000000
+ 48139 multiletter control sequences out of 15000+600000
  675837 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,79p,1244b,1594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,79p,1244b,1588s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssbx12.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
@@ -982,10 +977,10 @@ e1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb>
-Output written on CVnew.pdf (5 pages, 230957 bytes).
+Output written on CVnew.pdf (5 pages, 231204 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

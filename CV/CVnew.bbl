@@ -813,6 +813,65 @@
 
 \refsection{2}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{Bystranowski2026}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0eb000446fb3eeddb5ed7baafd9bc33d}{%
+           family={Hannikainen},
+           familyi={H\bibinitperiod},
+           given={Ivar\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4ad16cfe57cb4ae93161115a70ad1bf5}{%
+           family={Donelson},
+           familyi={D\bibinitperiod},
+           given={Raff},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=bd455e138342988fffb7ad18991db9d0}{%
+           family={Moreso},
+           familyi={M\bibinitperiod},
+           given={JJ},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38722188ca9e72824307bbcf86ac303e}{%
+           family={Himma},
+           familyi={H\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f5617014c32e5d5aaa83929f98770fb2}{%
+           family={Villa-Rosas},
+           familyi={V\bibinithyphendelim R\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{fullhash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{fullhashraw}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{bibnamehash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{authorbibnamehash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{authornamehash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{authorfullhash}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{authorfullhashraw}{b4d582e3c4a6c713f5e2e67d73f36c62}
+      \strng{editorbibnamehash}{b50d1ba2e74b507b62382a4cdaf6c821}
+      \strng{editornamehash}{b50d1ba2e74b507b62382a4cdaf6c821}
+      \strng{editorfullhash}{b50d1ba2e74b507b62382a4cdaf6c821}
+      \strng{editorfullhashraw}{b50d1ba2e74b507b62382a4cdaf6c821}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Separability of Law and Morality: A Research Companion}
+      \field{title}{Quiet in the Face of Wrong? An Empirical Look at Legal Positivism and the Quietist Hypothesis}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{coordination}{incollection}{}{}
       \name{author}{3}{}{%
         {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
