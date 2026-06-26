@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  28 MAY 2026 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.6)  26 JUN 2026 08:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,31 +922,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
 \grantsep=\skip104
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 312.
+ 314.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
 File: ts1clm2j.fd 2025/06/21 Fontinst v1.933 font definitions for TS1/clm2j.
 LaTeX Font Info:    Setting clm2j sub-encoding to TS1/1 on input line 93.
 )
 
 [4{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (1.31413pt too wide) in paragraph at lines 345--352
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+
+ []
+
+
+Overfull \hbox (1.31413pt too wide) in paragraph at lines 354--361
 [][]  
  []
 
@@ -958,7 +968,7 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
 Package rerunfilecheck Info: File `CVnew.out' has not changed.
-(rerunfilecheck)             Checksum: 7A4A6F1489DA4B4EEB6B251B7712A309;1356.
+(rerunfilecheck)             Checksum: 832F44825AC385263A3CEEE7863F1353;1262.
 Package logreq Info: Writing requests to 'CVnew.run.xml'.
 \openout1 = `CVnew.run.xml'.
 
@@ -982,10 +992,10 @@ e1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmvtt10.pfb>
-Output written on CVnew.pdf (5 pages, 231267 bytes).
+Output written on CVnew.pdf (5 pages, 232665 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 206 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1172,8 +1172,14 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Behavioral and Brain Sciences}
       \field{title}{The Veil and the Deal: Bargaining Between Case-Specific Solutions and Unknown Rules}
-      \field{year}{2025}
+      \field{volume}{49}
+      \field{year}{2026}
       \true{nocite}
+      \field{pages}{e136}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/S0140525X25101490
+      \endverb
     \endentry
     \entry{Dranseika2025}{article}{}{}
       \name{author}{3}{}{%
