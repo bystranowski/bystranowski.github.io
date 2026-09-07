@@ -2371,6 +2371,7 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex" glob="false">pubs.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">proceedings.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">chapters.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">comments.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">edited.bib</bcf:datasource>
@@ -2389,7 +2390,7 @@
   </bcf:section>
   <!-- SECTION 2 -->
   <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">chapters.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">proceedings.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
@@ -2399,7 +2400,7 @@
   </bcf:section>
   <!-- SECTION 3 -->
   <bcf:bibdata section="3">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">comments.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">chapters.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
@@ -2409,9 +2410,19 @@
   </bcf:section>
   <!-- SECTION 4 -->
   <bcf:bibdata section="4">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">edited.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">comments.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
+    <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 5 -->
+  <bcf:bibdata section="5">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">edited.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="5">
     <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
@@ -2475,6 +2486,16 @@
                 namehashtemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="4"
+                name="ydnt/global//global/global/global"
+                type="entry"
+                sortingtemplatename="ydnt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="5"
                 name="ydnt/global//global/global/global"
                 type="entry"
                 sortingtemplatename="ydnt"

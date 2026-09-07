@@ -813,6 +813,179 @@
 
 \refsection{2}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{BystranowskiVarieties2026}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=726423fa1d1f1059037b4445de3c932c}{%
+           family={Poradzisz},
+           familyi={P\bibinitperiod},
+           given={Kacper},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1827dd4035022d094d097b49a492f7c6}{%
+           family={Shivnekar},
+           familyi={S\bibinitperiod},
+           given={Revati},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a8c4440e302a3b8b344e009c44556891}{%
+           family={Kovačević},
+           familyi={K\bibinitperiod},
+           given={Katarina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{fullhash}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \strng{fullhashraw}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \strng{bibnamehash}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \strng{authorbibnamehash}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \strng{authornamehash}{c6b5bbf95ec1c5a5a7a75fc4614aea11}
+      \strng{authorfullhash}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \strng{authorfullhashraw}{7e8bb92f27850cdf1ad188910a8f8d8e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{Is Ignorance About ``Being Ignorant''? A Study Across Varieties of Ignorance}
+      \field{volume}{48}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{3596\bibrangedash 3602}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://escholarship.org/uc/item/1fv4f6ms
+      \endverb
+      \verb{url}
+      \verb https://escholarship.org/uc/item/1fv4f6ms
+      \endverb
+    \endentry
+    \entry{KovacevicShouldHaveKnown2026}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=a8c4440e302a3b8b344e009c44556891}{%
+           family={Kovačević},
+           familyi={K\bibinitperiod},
+           given={Katarina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{fullhash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{fullhashraw}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{bibnamehash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{authorbibnamehash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{authornamehash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{authorfullhash}{023321d37db678bd5d0280ef0dfc77f1}
+      \strng{authorfullhashraw}{023321d37db678bd5d0280ef0dfc77f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{You Should Have Known: Epistemic Norms in Judgments of Legal Ignorance}
+      \field{volume}{48}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{4863\bibrangedash 4869}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://escholarship.org/uc/item/60k2930h
+      \endverb
+      \verb{url}
+      \verb https://escholarship.org/uc/item/60k2930h
+      \endverb
+    \endentry
+    \entry{ShivnekarInstitutional2026}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=1827dd4035022d094d097b49a492f7c6}{%
+           family={Shivnekar},
+           familyi={S\bibinitperiod},
+           given={Revati},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{fullhash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{fullhashraw}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{bibnamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorbibnamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authornamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorfullhash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorfullhashraw}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{A Cognitive Account of How Institutional Pressures Influence Rule Enforcement Decisions}
+      \field{volume}{48}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{4283\bibrangedash 4289}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://escholarship.org/content/qt6zr225qh/qt6zr225qh.pdf
+      \endverb
+      \verb{url}
+      \verb https://escholarship.org/content/qt6zr225qh/qt6zr225qh.pdf
+      \endverb
+    \endentry
+    \entry{ShivnekarUnintentional2026}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=1827dd4035022d094d097b49a492f7c6}{%
+           family={Shivnekar},
+           familyi={S\bibinitperiod},
+           given={Revati},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
+           family={Bystranowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{fullhash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{fullhashraw}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{bibnamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorbibnamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authornamehash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorfullhash}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \strng{authorfullhashraw}{081b5da5381433f5c6e9c2c7f1dbd49a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Annual Meeting of the Cognitive Science Society}
+      \field{title}{Drawing Boundary on the Mitigating Effect of Unintentional Ignorance}
+      \field{volume}{48}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{4229\bibrangedash 4235}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://escholarship.org/content/qt3r06b9f1/qt3r06b9f1.pdf
+      \endverb
+      \verb{url}
+      \verb https://escholarship.org/content/qt3r06b9f1/qt3r06b9f1.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{ydnt/global//global/global/global}
     \entry{Bystranowski2026}{incollection}{}{}
       \name{author}{3}{}{%
         {{hash=c0fdff42029b1c4b1d81c30b0008eac5}{%
@@ -1148,7 +1321,7 @@
   \enddatalist
 \endrefsection
 
-\refsection{3}
+\refsection{4}
   \datalist[entry]{ydnt/global//global/global/global}
     \entry{veil}{article}{}{}
       \name{author}{1}{}{%
@@ -1258,7 +1431,7 @@
   \enddatalist
 \endrefsection
 
-\refsection{4}
+\refsection{5}
   \datalist[entry]{ydnt/global//global/global/global}
     \entry{springer}{book}{}{}
       \name{author}{3}{}{%

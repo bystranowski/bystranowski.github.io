@@ -80,6 +80,7 @@
     </requires>
     <requires type="editable">
       <file>pubs.bib</file>
+      <file>proceedings.bib</file>
       <file>chapters.bib</file>
       <file>comments.bib</file>
       <file>edited.bib</file>

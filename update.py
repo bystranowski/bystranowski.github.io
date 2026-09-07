@@ -17,18 +17,24 @@ PUBS_HTML  = os.path.join(SCRIPT_DIR, "publications.html")
 TALKS_HTML = os.path.join(SCRIPT_DIR, "talks.html")
 CV_TEX     = os.path.join(SCRIPT_DIR, "CV", "CVnew.tex")
 BIB = {
-    "journal":    os.path.join(SCRIPT_DIR, "CV", "pubs.bib"),
-    "chapter":    os.path.join(SCRIPT_DIR, "CV", "chapters.bib"),
-    "commentary": os.path.join(SCRIPT_DIR, "CV", "comments.bib"),
-    "edited":     os.path.join(SCRIPT_DIR, "CV", "edited.bib"),
+    "journal":     os.path.join(SCRIPT_DIR, "CV", "pubs.bib"),
+    "proceedings": os.path.join(SCRIPT_DIR, "CV", "proceedings.bib"),
+    "chapter":     os.path.join(SCRIPT_DIR, "CV", "chapters.bib"),
+    "commentary":  os.path.join(SCRIPT_DIR, "CV", "comments.bib"),
+    "edited":      os.path.join(SCRIPT_DIR, "CV", "edited.bib"),
 }
 
 PUB_TYPES = [
-    ("journal",    "Journal Articles"),
-    ("chapter",    "Book Chapters"),
-    ("commentary", "Commentaries and Replies"),
-    ("edited",     "Edited Volumes"),
+    ("journal",     "Journal Articles"),
+    ("proceedings", "Conference Proceedings"),
+    ("chapter",     "Book Chapters"),
+    ("commentary",  "Commentaries and Replies"),
+    ("edited",      "Edited Volumes"),
 ]
+
+# Canonical order of type subsections within a year (used to slot a new
+# subsection into publications.html in the right place).
+PUB_TYPE_ORDER = [label for _, label in PUB_TYPES]
 
 # ── I/O helpers ───────────────────────────────────────────────────────────────
 
@@ -179,6 +185,20 @@ def build_bib(pub_type, key, title, authors, year, info):
                 lines.append(kv(k, info[k]))
         lines.append("}")
 
+    elif pub_type == "proceedings":
+        lines = [f"@inproceedings{{{key},",
+                 kv("author",    authors),
+                 kv("title",     title),
+                 kv("booktitle", info.get("venue", ""))]
+        for k in ("volume", "pages"):
+            if info.get(k):
+                lines.append(kv(k, info[k]))
+        lines.append(kv("year", year))
+        for k in ("doi", "url"):
+            if info.get(k):
+                lines.append(kv(k, info[k]))
+        lines.append("}")
+
     else:  # edited volume
         lines = [f"@book{{{key},",
                  kv("editor",    authors),
@@ -231,6 +251,14 @@ def build_pub_li(pub_type, title, authors, year, info):
     elif pub_type == "commentary":
         vol = f" {info['volume']}" if info.get("volume") else ""
         body = f'{auth}. \u201c{title_html}\u201d. <em>{venue}</em>{vol}.{preprint_html}'
+
+    elif pub_type == "proceedings":
+        venue_str = f"<em>{venue}</em>"
+        if info.get("volume"):
+            venue_str += f" {info['volume']}"
+        if info.get("pages"):
+            venue_str += f", {info['pages']}"
+        body = f'{auth}. \u201c{title_html}\u201d. {venue_str}.{preprint_html}'
 
     else:  # edited
         pub = f". {info['publisher']}, {year}" if info.get("publisher") else f", {year}"
@@ -287,14 +315,34 @@ def insert_pub_html(year_str, pub_label, li_html):
     year_block = content[year_pos:year_block_end]
 
     if type_h3 not in year_block:
-        # Add a new type subsection inside this year block, before next year/</main>
+        # New type subsection for this year. Slot it into canonical order:
+        # before the first existing subsection that ranks after it, else after
+        # the last subsection in the year block.
         new_type = (f'      {type_h3}\n'
                     f'      <ul class="pub-list">\n'
                     f'{li_html}\n'
-                    f'      </ul>\n\n')
-        content = content[:year_block_end] + new_type + content[year_block_end:]
-        # Move the new type inside the year block (just before its end)
-        # Simpler: insert at year_block_end which already IS inside the year block
+                    f'      </ul>')
+        try:
+            my_rank = PUB_TYPE_ORDER.index(pub_label)
+        except ValueError:
+            my_rank = len(PUB_TYPE_ORDER)
+
+        placed = False
+        for m in re.finditer(r'^[ \t]*<h3 class="pub-type">([^<]+)</h3>',
+                             year_block, re.MULTILINE):
+            other = m.group(1).strip()
+            other_rank = (PUB_TYPE_ORDER.index(other)
+                          if other in PUB_TYPE_ORDER else len(PUB_TYPE_ORDER))
+            if other_rank > my_rank:
+                line_start = content.rfind("\n", 0, year_pos + m.start()) + 1
+                content = content[:line_start] + new_type + "\n" + content[line_start:]
+                placed = True
+                break
+
+        if not placed:
+            last_ul_end = year_pos + year_block.rfind("</ul>") + len("</ul>")
+            content = content[:last_ul_end] + "\n" + new_type + content[last_ul_end:]
+
         wfile(PUBS_HTML, content)
         return
 
@@ -313,8 +361,9 @@ def add_publication():
     for i, (_, label) in enumerate(PUB_TYPES, 1):
         print(f"    {i}. {label}")
 
-    choice = ask("Choice (1–4)")
-    if not choice.isdigit() or int(choice) not in range(1, 5):
+    n = len(PUB_TYPES)
+    choice = ask(f"Choice (1–{n})")
+    if not choice.isdigit() or int(choice) not in range(1, n + 1):
         print("  Invalid choice."); return
     pub_type, pub_label = PUB_TYPES[int(choice) - 1]
 
@@ -334,6 +383,11 @@ def add_publication():
         info["venue"]     = ask("Book title")
         info["editor"]    = ask("Editor(s)", default="")
         info["publisher"] = ask("Publisher", default="")
+    elif pub_type == "proceedings":
+        info["venue"]  = ask("Proceedings title",
+                             default="Proceedings of the Annual Meeting of the Cognitive Science Society")
+        info["volume"] = ask("Volume", default="")
+        info["pages"]  = ask("Pages", default="")
     else:  # edited
         info["venue"]     = ask("Book title", default="")
         info["publisher"] = ask("Publisher", default="")
@@ -451,21 +505,42 @@ def compile_cv():
 
 # ── Insert into CVnew.tex ─────────────────────────────────────────────────────
 
-def insert_talk_cv(year, title, venue, copresenters=""):
+def insert_talk_cv(talk_date, title, venue, copresenters=""):
     content = rfile(CV_TEX)
 
     def ltx(s):
         return s.replace("&", "\\&").replace("%", "\\%").replace("$", "\\$").replace("#", "\\#")
 
+    year      = talk_date.year
     venue_str = venue + (f" (with {copresenters})" if copresenters else "")
-    new_talk = f"\n  \\talk{{{year}}}{{{ltx(title)}}}{{{ltx(venue_str)}}}\n"
+    entry     = f"  \\talk{{{year}}}{{{ltx(title)}}}{{{ltx(venue_str)}}}"
 
-    m = re.search(r'\\section\{Invited Talks\}.*?\\begin\{content\}', content, re.DOTALL)
+    m = re.search(r'\\section\{Invited Talks\}.*?\\begin\{content\}\n', content, re.DOTALL)
     if not m:
         print("  ⚠  Could not find 'Invited Talks' section in CVnew.tex — add manually.")
         return
 
-    content = content[:m.end()] + new_talk + content[m.end():]
+    body_start = m.end()
+    end_m      = re.search(r'\\sectionlineskip', content[body_start:])
+    body_end   = body_start + end_m.start() if end_m else len(content)
+
+    # Entries are ordered by year, descending. Drop the new talk in front of the
+    # first existing \talk whose year is older than this one, i.e. at the bottom
+    # of its own year's group. (The \talk macro records only a year, so ordering
+    # within a single year stays in insertion order.)
+    insert_pos = None
+    for tm in re.finditer(r'^[ \t]*\\talk\{(\d{4})\}', content[body_start:body_end],
+                          re.MULTILINE):
+        if int(tm.group(1)) < year:
+            insert_pos = body_start + tm.start()
+            break
+
+    if insert_pos is None:
+        # Oldest talk, or empty section: append after the last entry.
+        content = content[:body_end] + "\n" + entry + "\n" + content[body_end:]
+    else:
+        content = content[:insert_pos] + entry + "\n\n" + content[insert_pos:]
+
     wfile(CV_TEX, content)
 
 # ── Add talk ──────────────────────────────────────────────────────────────────
@@ -491,7 +566,7 @@ def add_talk():
     print(f"\n  ✓ Talk added  →  talks.html")
 
     if is_invited:
-        insert_talk_cv(talk_date.year, title, venue, copresenters)
+        insert_talk_cv(talk_date, title, venue, copresenters)
         print(f"  ✓ Talk added  →  CV/CVnew.tex")
         compile_cv()
 
