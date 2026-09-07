@@ -1,47 +1,47 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'CVnew.blg'
-[98] biber:340> INFO - === pią cze 26, 2026, 08:33:45
-[119] Biber.pm:420> INFO - Reading 'CVnew.bcf'
-[220] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[221] Biber.pm:991> INFO - Using all citekeys in bib section 1
-[221] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[221] Biber.pm:991> INFO - Using all citekeys in bib section 2
-[221] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[221] Biber.pm:991> INFO - Using all citekeys in bib section 3
-[221] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[222] Biber.pm:991> INFO - Using all citekeys in bib section 4
-[222] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[269] Biber.pm:4463> INFO - Processing section 1
-[280] Biber.pm:4654> INFO - Looking for bibtex file 'pubs.bib' for section 1
-[282] bibtex.pm:1713> INFO - LaTeX decoding ...
-[315] bibtex.pm:1519> INFO - Found BibTeX data source 'pubs.bib'
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[564] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[564] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[594] Biber.pm:4463> INFO - Processing section 2
-[594] Biber.pm:4654> INFO - Looking for bibtex file 'chapters.bib' for section 2
-[596] bibtex.pm:1713> INFO - LaTeX decoding ...
-[606] bibtex.pm:1519> INFO - Found BibTeX data source 'chapters.bib'
-[725] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[725] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[725] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[726] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[737] Biber.pm:4463> INFO - Processing section 3
-[737] Biber.pm:4654> INFO - Looking for bibtex file 'comments.bib' for section 3
-[738] bibtex.pm:1713> INFO - LaTeX decoding ...
-[747] bibtex.pm:1519> INFO - Found BibTeX data source 'comments.bib'
-[795] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[795] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[795] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[795] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[801] Biber.pm:4463> INFO - Processing section 4
-[801] Biber.pm:4654> INFO - Looking for bibtex file 'edited.bib' for section 4
-[802] bibtex.pm:1713> INFO - LaTeX decoding ...
-[804] bibtex.pm:1519> INFO - Found BibTeX data source 'edited.bib'
-[822] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[822] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[822] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[822] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[825] bbl.pm:676> INFO - Writing 'CVnew.bbl' with encoding 'UTF-8'
-[850] bbl.pm:779> INFO - Output to CVnew.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'CVnew.blg'
+[80] biber:342> INFO - === Mon Sep  7, 2026, 14:01:37
+[93] Biber.pm:421> INFO - Reading 'CVnew.bcf'
+[134] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[134] Biber.pm:999> INFO - Using all citekeys in bib section 1
+[134] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[134] Biber.pm:999> INFO - Using all citekeys in bib section 2
+[135] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[135] Biber.pm:999> INFO - Using all citekeys in bib section 3
+[135] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[135] Biber.pm:999> INFO - Using all citekeys in bib section 4
+[135] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[157] Biber.pm:4487> INFO - Processing section 1
+[164] Biber.pm:4678> INFO - Looking for bibtex file 'pubs.bib' for section 1
+[165] bibtex.pm:1713> INFO - LaTeX decoding ...
+[176] bibtex.pm:1519> INFO - Found BibTeX data source 'pubs.bib'
+[319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[319] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[319] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[320] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[334] Biber.pm:4487> INFO - Processing section 2
+[334] Biber.pm:4678> INFO - Looking for bibtex file 'chapters.bib' for section 2
+[335] bibtex.pm:1713> INFO - LaTeX decoding ...
+[339] bibtex.pm:1519> INFO - Found BibTeX data source 'chapters.bib'
+[386] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[386] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[386] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[386] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[390] Biber.pm:4487> INFO - Processing section 3
+[390] Biber.pm:4678> INFO - Looking for bibtex file 'comments.bib' for section 3
+[390] bibtex.pm:1713> INFO - LaTeX decoding ...
+[392] bibtex.pm:1519> INFO - Found BibTeX data source 'comments.bib'
+[409] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[409] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[409] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[409] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[411] Biber.pm:4487> INFO - Processing section 4
+[411] Biber.pm:4678> INFO - Looking for bibtex file 'edited.bib' for section 4
+[411] bibtex.pm:1713> INFO - LaTeX decoding ...
+[412] bibtex.pm:1519> INFO - Found BibTeX data source 'edited.bib'
+[421] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[421] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[421] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[421] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[422] bbl.pm:676> INFO - Writing 'CVnew.bbl' with encoding 'UTF-8'
+[430] bbl.pm:779> INFO - Output to CVnew.bbl
